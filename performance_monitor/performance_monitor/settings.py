@@ -49,11 +49,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'monitor.performance_middleware.PerformanceMonitoringMiddleware',  # performace middleware
+    'monitor.middleware.PerformanceMonitoringMiddleware',  # performace middleware
 
 ]
 
-MIDDLEWARE += ['silk.middleware.SilkyMiddleware']
+MIDDLEWARE += [
+    'silk.middleware.SilkyMiddleware',
+    'monitor.middleware.PrometheusMiddleware',
+    
+    ]
 
 
 ROOT_URLCONF = 'performance_monitor.urls'

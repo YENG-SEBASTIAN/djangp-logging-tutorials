@@ -1,2 +1,23 @@
 DEBUG 2024-06-10 13:42:46,421 views example_view took 0.0000 seconds
 DEBUG 2024-06-10 13:42:46,423 performance_middleware GET / took 0.0019 seconds
+DEBUG 2024-06-10 13:58:30,918 performance_middleware GET /admin/ took 0.2070 seconds
+DEBUG 2024-06-10 13:58:31,182 performance_middleware GET /admin/login/ took 0.2355 seconds
+DEBUG 2024-06-10 13:58:41,863 performance_middleware POST /admin/login/ took 1.4820 seconds
+DEBUG 2024-06-10 13:58:41,999 performance_middleware GET /admin/ took 0.1187 seconds
+DEBUG 2024-06-10 14:13:58,061 views example_view took 0.0000 seconds
+DEBUG 2024-06-10 14:13:58,108 middleware GET / took 0.1141 seconds
+DEBUG 2024-06-10 14:13:58,575 middleware GET /favicon.ico took 0.0648 seconds
+DEBUG 2024-06-10 14:14:15,147 views example_view took 0.0000 seconds
+DEBUG 2024-06-10 14:14:15,179 middleware GET / took 0.0497 seconds
+DEBUG 2024-06-10 14:14:43,307 views example_view took 0.0000 seconds
+DEBUG 2024-06-10 14:14:43,333 middleware GET / took 0.0507 seconds
+DEBUG 2024-06-10 14:15:14,544 views example_view took 0.0000 seconds
+DEBUG 2024-06-10 14:15:14,563 middleware GET / took 0.0425 seconds
+DEBUG 2024-06-10 14:15:24,045 middleware GET /admin took 0.0748 seconds
+DEBUG 2024-06-10 14:15:24,183 middleware GET /admin/ took 0.1301 seconds
+DEBUG 2024-06-10 14:15:32,452 middleware GET /admin/auth/group/ took 0.2180 seconds
+DEBUG 2024-06-10 14:15:32,718 middleware GET /admin/jsi18n/ took 0.2123 seconds
+DEBUG 2024-06-10 14:15:36,117 middleware GET /admin/auth/user/ took 0.2026 seconds
+DEBUG 2024-06-10 14:15:36,267 middleware GET /admin/jsi18n/ took 0.1149 seconds
+DEBUG 2024-06-10 14:15:46,905 middleware GET /admin/auth/group/ took 0.1150 seconds
+DEBUG 2024-06-10 14:15:48,098 middleware GET /admin/ took 0.3772 seconds
