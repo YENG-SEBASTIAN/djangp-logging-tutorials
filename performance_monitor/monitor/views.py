@@ -1,7 +1,12 @@
-from django.shortcuts import render
 from django.http import HttpResponse
+import logging
+import time
 
-# Create your views here.
+logger = logging.getLogger('my_django_monitor')
 
-def home(request):
-    return HttpResponse("Hello all")
+def example_view(request):
+    start_time = time.time()
+    # Your view logic here
+    duration = time.time() - start_time
+    logger.debug(f'example_view took {duration:.4f} seconds')
+    return HttpResponse('Hello, world!')

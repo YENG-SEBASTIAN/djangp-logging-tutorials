@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'monitor',
+    'silk',
 ]
 
 MIDDLEWARE = [
@@ -48,7 +49,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'monitor.performance_middleware.PerformanceMonitoringMiddleware',  # performace middleware
+
 ]
+
+MIDDLEWARE += ['silk.middleware.SilkyMiddleware']
+
 
 ROOT_URLCONF = 'performance_monitor.urls'
 
@@ -147,7 +153,7 @@ LOGGING = {
         },
     },
     'loggers': {
-        'django': {
+        'my_django_monitor': {
             'handlers': ['file'],
             'level': 'DEBUG',
             'propagate': True,
