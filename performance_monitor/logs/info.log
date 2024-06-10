@@ -1,0 +1,3 @@
+INFO 2024-06-10 14:50:53,777 views This is an info message
+ERROR 2024-06-10 14:50:53,777 views This is an error message
+CRITICAL 2024-06-10 14:50:53,895 views This is a critical message
