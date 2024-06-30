@@ -3,3 +3,9 @@ INFO 2024-06-10 14:50:53,777 views This is an info message
 ERROR 2024-06-10 14:50:53,777 views This is an error message
 CRITICAL 2024-06-10 14:50:53,895 views This is a critical message
 DEBUG 2024-06-10 14:50:53,972 middleware GET / took 1.2225 seconds
+DEBUG 2024-06-30 12:08:13,804 views This is a debug message: example_view took 1.0009 seconds
+INFO 2024-06-30 12:08:13,816 views This is an info message
+ERROR 2024-06-30 12:08:13,817 views This is an error message
+CRITICAL 2024-06-30 12:08:14,178 views This is a critical message
+DEBUG 2024-06-30 12:08:14,534 middleware GET / took 1.8248 seconds
+DEBUG 2024-06-30 12:08:15,884 middleware GET /favicon.ico took 0.0754 seconds
