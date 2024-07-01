@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'monitor',
     'silk',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
