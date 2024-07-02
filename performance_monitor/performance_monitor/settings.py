@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = "monitor.User"
 
 # Application definition
 
@@ -40,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'monitor',
     'silk',
-    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -135,20 +133,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Email settings
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'yengsebastian1@gmail.com'
-EMAIL_HOST_PASSWORD = 'hsseoancvttusojc'
 
 
-# Django performance loggings 
-
-import logging
-from logging.handlers import RotatingFileHandler
-from django.utils.log import AdminEmailHandler
 
 # Define BASE_DIR
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
