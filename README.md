@@ -166,3 +166,7 @@ This project is a Django application designed to monitor the performance of your
 ## Conclusion
 
 This setup will help you monitor the performance of your Django application by logging request durations and other metrics. You can extend this further by integrating additional monitoring tools and logging more specific data as needed.
+
+
+
+y
